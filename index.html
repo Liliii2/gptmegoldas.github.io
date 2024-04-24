@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kártyák elhelyezése flexbox segítségével</title>
+    <style>
+        .kartyak {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* height: 350px; */
+            align-items: center;
+            background-color: rgb(10, 31, 90);
+        }
+
+        .kartya {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: aqua;
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.445);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="kartyak">
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+        <div class="kartya" style="background-color: rgba(140, 153, 165, 0.795);">Kakukktojgli</div>
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+        <div class="kartya"></div>
+    </div>
+</body>
+</html>
